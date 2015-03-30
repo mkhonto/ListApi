@@ -1,13 +1,13 @@
 
 // An object to hold the item we will be
 // storing in our list
-exports.ListItem = function(data, tail) {
+var ListItem = function(data, tail) {
   this.tail = tail
   this.data = data
 }
 
 // List implementation
-exports.List = function() {
+var List = function() {
   this.item = null
 
   // Add a data item to the front of the list
@@ -28,7 +28,7 @@ exports.List = function() {
      //......
     if(this.empty()) {
       return null
-    }else{
+    }else}
       return this.item.data
     }
   }
